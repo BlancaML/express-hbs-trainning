@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>HOME</title>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">GAME OF THRONES</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link {{#if homePage}}active{{/if}}" href="./episodes">Episodes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+      <div class="container">
+          
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+            <a href="/episodes/1" class="btn btn-secondary">1</a>
+            <a href="/episodes/2" class="btn btn-secondary">2</a>
+            <a href="/episodes/3" class="btn btn-secondary">3</a>
+            <a href="/episodes/4" class="btn btn-secondary">4</a>
+            <a href="/episodes/5" class="btn btn-secondary">5</a>
+            <a href="/episodes/6" class="btn btn-secondary">6</a>
+            <a href="/episodes/7" class="btn btn-secondary">7</a>
+            <a href="/episodes/8" class="btn btn-secondary">8</a>
+  </div>
+</div>
+{{{body}}}
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>

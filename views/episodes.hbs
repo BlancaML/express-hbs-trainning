@@ -1,0 +1,13 @@
+{{#each data as |episode|}}
+<div class="card" style="width: 18rem;">
+  <img src="{{episode.image.medium}}" class="card-img-top" alt="{{episode.name}}">
+  <div class="card-body">
+    <p>{{episode.name}}</p>
+    <p class="card-text">S {{episode.season}} E {{episode.number}}</p>
+  </div>
+</div>  
+{{/each}}
+
+
+
+

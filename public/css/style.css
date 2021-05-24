@@ -1,0 +1,17 @@
+.container {
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.card {
+    margin: 20px;
+    display: flex;
+    
+}
+
+.btn-toolbar {
+    margin: 20px;
+    align-content: center;
+}
